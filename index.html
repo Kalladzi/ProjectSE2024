@@ -80,6 +80,34 @@
             font-size: 1.2em;
         }
 
+        #member {
+            background-color: rgba(102, 33, 33, 1);
+            text-align: center;
+        }
+
+        .member {
+            display: inline-block;
+            margin: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .member:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .member-img {
+            width: 300px;
+            height: 400px;
+            border-radius: 20%;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .member:hover .member-img {
+            transform: rotate(360deg);
+        }
+
     </style>
 </head>
 <body>
