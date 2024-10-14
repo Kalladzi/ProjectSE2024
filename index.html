@@ -49,7 +49,7 @@
         }
 
         #home {
-            background-image: url('home-background.jpg'); /* Replace with your background image */
+            background-image: url('home-background.jpg'); 
             background-attachment: fixed;
             background-size: cover;
             background-position: center;
@@ -107,6 +107,33 @@
         .member:hover .member-img {
             transform: rotate(360deg);
         }
+        
+        #about {
+            display: flex; 
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(255, 255, 255);
+            padding: 50px;
+        }
+
+        .about-content {
+            width: 50%; 
+            text-align: left;
+            padding-right: 20px;
+        }
+
+        .about-content p {
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .about-img {
+            width: 15%; 
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-right: 30px;
+        }
 
     </style>
 </head>
@@ -145,7 +172,7 @@
         <p>"We are a group of Informatics students working together on this project for our Software Engineering course. This website is a way to introduce ourselves and showcase our skills. We are learning how to solve problems with technology and build better software through teamwork and creativity."</p>
     </div>
     
-    <img src="Component 1 (1).png" alt="About Us" class="about-img" > <!-- Image on the right -->
+    <img src="Component 1 (1).png" alt="About Us" class="about-img" > 
 </section>
 </body>
 </html>
